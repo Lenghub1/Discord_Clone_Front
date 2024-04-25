@@ -3,7 +3,6 @@ import { logout } from "./shared/utils/auth";
 
 const apiClient = axios.create({
   baseURL: "https://discord-clone-d5ml.onrender.com/api",
-  timeout: 1000,
 });
 
 apiClient.interceptors.request.use(
